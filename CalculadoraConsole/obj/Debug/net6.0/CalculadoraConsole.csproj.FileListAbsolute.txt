@@ -1,0 +1,15 @@
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\bin\Debug\net6.0\CalculadoraConsole.exe
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\bin\Debug\net6.0\CalculadoraConsole.deps.json
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\bin\Debug\net6.0\CalculadoraConsole.runtimeconfig.json
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\bin\Debug\net6.0\CalculadoraConsole.dll
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\bin\Debug\net6.0\CalculadoraConsole.pdb
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\CalculadoraConsole.csproj.AssemblyReference.cache
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\CalculadoraConsole.GeneratedMSBuildEditorConfig.editorconfig
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\CalculadoraConsole.AssemblyInfoInputs.cache
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\CalculadoraConsole.AssemblyInfo.cs
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\CalculadoraConsole.csproj.CoreCompileInputs.cache
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\CalculadoraConsole.dll
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\refint\CalculadoraConsole.dll
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\CalculadoraConsole.pdb
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\CalculadoraConsole.genruntimeconfig.cache
+F:\workspace\treinos-basicos-curso-dio\CalculadoraConsole\obj\Debug\net6.0\ref\CalculadoraConsole.dll
