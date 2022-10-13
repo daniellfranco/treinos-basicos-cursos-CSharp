@@ -1,0 +1,15 @@
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.exe
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.deps.json
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.runtimeconfig.json
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.dll
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.pdb
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.csproj.AssemblyReference.cache
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.GeneratedMSBuildEditorConfig.editorconfig
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.AssemblyInfoInputs.cache
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.AssemblyInfo.cs
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.csproj.CoreCompileInputs.cache
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.dll
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\refint\TestesGerais.dll
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.pdb
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.genruntimeconfig.cache
+F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\ref\TestesGerais.dll
