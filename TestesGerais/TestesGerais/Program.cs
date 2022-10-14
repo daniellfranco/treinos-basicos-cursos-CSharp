@@ -1,6 +1,69 @@
 ﻿using TestesGerais;
 
 
+    int n = int.Parse(Console.ReadLine());
+    int count = 0;
+
+    for (int i = 1; i <= n; i++)
+    {
+        // TODO: Crie as outras condições necessárias para a resolução do desafio:
+        if (n % i == 0)
+        {
+            count++;
+        }
+        if (count > 3)
+        {
+            Console.WriteLine(false);
+        }
+    }
+    Console.WriteLine(count == 3);
+
+
+/*
+Console.WriteLine("Digite a quantidade de casos: ");
+int qt = int.Parse(Console.ReadLine());
+string[] v = new string[qt];
+
+for (int i = 0; i < qt; i++)
+{
+
+    Console.WriteLine("Digite os 2 Numeros separados por espaço: ");
+
+    // Separa os 2 numeros em vetores a partir do espaço
+    v = Console.ReadLine().Split(" ");
+
+    string a = v[0];
+
+    string b = v[1];
+
+    if (a.Length > 0 && a.Length <= 1000 && b.Length < 0 && b.Length >= 1000)
+        Console.WriteLine("nao encaixa");
+    else if (a.EndsWith(b))
+        Console.WriteLine("encaixa");
+    else
+        Console.WriteLine("nao encaixa");
+
+}
+
+
+/*
+int qt = 4;
+// TODO: Crie as outras condições necessárias para a resolução do desafio:
+for (int i = 0; i < qt; i++)
+{
+
+    string a = "56234523485723854755454545478690";
+    string b = "78690";
+
+    if (a.Length < b.Length)
+        Console.WriteLine("nao encaixa");
+    else if (a.Substring(a.Length - b.Length) == b)
+        Console.WriteLine("encaixa");
+    else
+        Console.WriteLine("nao encaixa");
+
+}
+
 
 
 /*

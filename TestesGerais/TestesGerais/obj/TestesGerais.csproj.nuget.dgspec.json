@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\workspace\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\TestesGerais.csproj": {}
+    "E:\\Works\\Curso Prog\\Curso Dio\\Repos Git Dio\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\TestesGerais.csproj": {}
   },
   "projects": {
-    "F:\\workspace\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\TestesGerais.csproj": {
+    "E:\\Works\\Curso Prog\\Curso Dio\\Repos Git Dio\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\TestesGerais.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\workspace\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\TestesGerais.csproj",
+        "projectUniqueName": "E:\\Works\\Curso Prog\\Curso Dio\\Repos Git Dio\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\TestesGerais.csproj",
         "projectName": "TestesGerais",
-        "projectPath": "F:\\workspace\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\TestesGerais.csproj",
-        "packagesPath": "C:\\Users\\Franco\\.nuget\\packages\\",
-        "outputPath": "F:\\workspace\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\obj\\",
+        "projectPath": "E:\\Works\\Curso Prog\\Curso Dio\\Repos Git Dio\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\TestesGerais.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "E:\\Works\\Curso Prog\\Curso Dio\\Repos Git Dio\\treinos-basicos-curso-dio\\TestesGerais\\TestesGerais\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Franco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

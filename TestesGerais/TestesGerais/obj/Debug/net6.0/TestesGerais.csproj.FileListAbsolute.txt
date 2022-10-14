@@ -13,3 +13,18 @@ F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.
 F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.pdb
 F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.genruntimeconfig.cache
 F:\workspace\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\ref\TestesGerais.dll
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.exe
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.deps.json
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.runtimeconfig.json
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.dll
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\bin\Debug\net6.0\TestesGerais.pdb
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.csproj.AssemblyReference.cache
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.GeneratedMSBuildEditorConfig.editorconfig
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.AssemblyInfoInputs.cache
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.AssemblyInfo.cs
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.csproj.CoreCompileInputs.cache
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.dll
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\refint\TestesGerais.dll
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.pdb
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\TestesGerais.genruntimeconfig.cache
+E:\Works\Curso Prog\Curso Dio\Repos Git Dio\treinos-basicos-curso-dio\TestesGerais\TestesGerais\obj\Debug\net6.0\ref\TestesGerais.dll
