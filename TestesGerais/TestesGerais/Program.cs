@@ -1,5 +1,24 @@
 ﻿using TestesGerais;
+using System.Globalization;
 
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+
+decimal valorMonetario = 1522.55M;
+Console.WriteLine($"{valorMonetario:c}");
+Console.WriteLine(valorMonetario.ToString("C"));
+Console.WriteLine(valorMonetario.ToString("C4"));
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
+
+Console.WriteLine(valorMonetario.ToString("N"));
+
+double porcentagem = .12;
+Console.WriteLine($"{porcentagem:P}");
+
+int numero = 123456;
+//formatação manual, # representa um digito.
+Console.WriteLine(numero.ToString("##-##-##"));
+
+/*
 
     int n = int.Parse(Console.ReadLine());
     int count = 0;
