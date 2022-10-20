@@ -12,6 +12,7 @@ namespace ExcecoesEColecoes.Models
         //o primeiro a entrar é o primeiro a sair.
         public void MetodoFila()
         {
+            Console.WriteLine("Teste Fila/Queue");
 
             Queue<int> fila = new Queue<int>();
 
