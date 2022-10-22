@@ -1,5 +1,6 @@
 ﻿using ExemploExplorando.Models;
 
+
 Pessoa p1 = new Pessoa();
 p1.Nome = "Daniel";
 p1.Sobrenome = "Franco";
