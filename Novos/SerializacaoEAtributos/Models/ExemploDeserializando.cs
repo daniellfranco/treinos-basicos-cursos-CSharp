@@ -10,11 +10,11 @@ namespace SerializacaoEAtributos.Models
     {
         public void MetodoDeserializacao()
         {
-            string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+            string conteudoArquivo = File.ReadAllText("Arquivos/vendasComPropriedadeDiferente.json");
 
-            List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+            List<VendaDeserializacao> listaVenda = JsonConvert.DeserializeObject<List<VendaDeserializacao>>(conteudoArquivo);
 
-            foreach (Venda venda in listaVenda)
+            foreach (VendaDeserializacao venda in listaVenda)
             {
                 Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " +
                 $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
