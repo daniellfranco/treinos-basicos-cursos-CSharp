@@ -9,7 +9,7 @@ namespace TiposEspeciais.Models
     public static class MetodoDeExtensaoInt
     {
         //o segredo da extensão é o "this int"
-        //significa que ele toda variavel inteira vai ter disponivel
+        //significa que toda variavel inteira vai ter disponivel
         //o metodo EhPar para usar como .EhPar();
         //e não precisa colocar um parametro, pois quando coloca o this
         //a propria variavel ja vai ser o parametro exemplo:

@@ -14,7 +14,7 @@ namespace TiposEspeciais.Exemplos
             //As classes genéricas elas agem sempre da mesma forma idependente do tipo definido pra ela.
 
             //voce cria a classe com um tipo generico,
-            ////e só aqui na hora de instanciar voce define o tipo que ela vai ser.
+            //e só aqui na hora de instanciar voce define o tipo que ela vai ser.
             MeuArray<int> arrayInteiro = new MeuArray<int>();
             arrayInteiro.AdicionarElementoArray(30);
             Console.WriteLine(arrayInteiro[0]);

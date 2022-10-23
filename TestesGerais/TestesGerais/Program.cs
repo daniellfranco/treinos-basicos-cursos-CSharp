@@ -1,6 +1,64 @@
 ﻿using TestesGerais;
 using System.Globalization;
 
+
+
+int n = int.Parse(Console.ReadLine());
+
+int[] num = new int[n];
+
+// TODO: Crie as outras condições necessárias para a resolução do desafio:
+for (int i = 0; i < n; i++)
+{
+    num[i] = int.Parse(Console.ReadLine());
+}
+Console.WriteLine(MajorityElement(num));
+
+int MajorityElement(int[] nums)
+{
+    int major = nums[0];
+    int count = 1;
+    for (int i = 1; i < nums.Length; i++)
+    {
+        if (count == 0)
+        {
+            major = nums[i];
+            count++;
+        }
+        else
+        {
+            if (major == nums[i])
+            {
+                count++;
+            }
+            else
+            {
+                count--;
+            }
+        }
+    }
+    return major;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
 decimal valorMonetario = 1522.55M;
@@ -17,6 +75,11 @@ Console.WriteLine($"{porcentagem:P}");
 int numero = 123456;
 //formatação manual, # representa um digito.
 Console.WriteLine(numero.ToString("##-##-##"));
+
+
+int[] num = new int[3];
+
+int n = num.Length;
 
 /*
 

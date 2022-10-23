@@ -12,7 +12,7 @@ namespace TiposEspeciais.Exemplos
         {
             //tipos dinamicos permitem ter seu tipo alterado conforme oque recebem
 
-            //agora ela é int pois recebeu um inteiro
+            //agora é int pois recebeu um inteiro
             dynamic variavelDinamica = 4;
             TextoWriteline(variavelDinamica);
 
