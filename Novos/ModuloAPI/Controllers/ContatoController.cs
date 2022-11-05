@@ -32,7 +32,7 @@ namespace ModuloAPI.Controllers
             //retorno que faz aparecer no response header um link com o local de acesso do contato
             //exemplo:
             //location: https://localhost:7257/Contato/8 
-            return CreatedAtAction(nameof(ObterPorId), new {id = contato.Id}, contato);
+            return CreatedAtAction(nameof(ObterPorId), new { id = contato.Id }, contato);
         }
 
         [HttpGet("{id}")]
@@ -40,7 +40,9 @@ namespace ModuloAPI.Controllers
         {
             var contato = _context.Contatos.Find(id);
 
-            if (contato == null)
+            //if (contato == null)
+            //alterado para is pois é mais legivel e possui algumas vantagens nesse tipo de operação.
+            if (contato is null)
                 return NotFound();
 
             return Ok(contato);
@@ -60,7 +62,7 @@ namespace ModuloAPI.Controllers
         {
             var contatoBanco = _context.Contatos.Find(id);
 
-            if (contato == null)
+            if (contato is null)
                 return NotFound();
 
             contatoBanco.Nome = contato.Nome;
@@ -78,7 +80,7 @@ namespace ModuloAPI.Controllers
         {
             var contatoBanco = _context.Contatos.Find(id);
 
-            if (contatoBanco == null)
+            if (contatoBanco is null)
                 return NotFound();
 
             _context.Contatos.Remove(contatoBanco);
