@@ -1,5 +1,10 @@
-﻿@model IEnumerable<ProjetoMVC.Models.Contato>
+﻿
 
+<!-- A lista de contatos enviada para view la na ContatoController está sendo 
+    carregada com esse comando aqui, para dentro de model.
+-->
+
+@model IEnumerable<ProjetoMVC.Models.Contato>
 
 @{
     ViewData["Title"] = "Listagem de contatos";
@@ -8,11 +13,13 @@
 <h2>Contatos</h2>
 
 <p>
-    <a asp-action="Criar">Novo Contato</a>
+    <!-- asp-action invoca o metodo Criar -->
+    <a class="btn btn-success" asp-action="Criar">Novo Contato</a>
 </p>
 
 <table class="table">
     <thead>
+        <!--Cabeçalho da Tabela-->
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Id)
@@ -26,11 +33,16 @@
             <th>
                 @Html.DisplayNameFor(model => model.Ativo)
             </th>
+            <th>
+                <!-- esse th é pq tem 5 th ali em baixo e ai se aqui tiver
+                só 4 a linha do o cabeçalho não acompanha até o final -->
+            </th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
+            <!--Tabela de Contatos-->
             <tr>
                 <td>
                     @Html.DisplayFor(model => item.Id)
@@ -45,9 +57,10 @@
                     @Html.DisplayFor(model => item.Ativo)
                 </td>
                 <td>
-                    <a asp-action="Editar" asp-route-id="item.Id">Editar</a>
-                    <a asp-action="Detalhes" asp-route-id="item.Id">Detalhes</a>
-                    <a asp-action="Deletar" asp-route-id="item.Id">Deletar</a>
+                    <!-- asp-route-id retorna para o metodo q está no asp-action o valor item.Id -->
+                    <a class="btn btn-warning" asp-action="Editar" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-info" asp-action="Detalhes" asp-route-id="@item.Id">Detalhes</a> |
+                    <a class="btn btn-danger" asp-action="Deletar" asp-route-id="@item.Id">Deletar</a>
                 </td>
             </tr>
         }

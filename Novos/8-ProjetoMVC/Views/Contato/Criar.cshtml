@@ -1,0 +1,47 @@
+﻿@model ProjetoMVC.Models.Contato
+
+@{
+    ViewData["Title"] = "Criar novo contato";
+}
+
+<h1>Criar novo contato</h1>
+
+<hr/>
+
+<div class="row">
+    <div class="col-md-4">
+        <!--Cria um formulario que irá retornar os dados para o metodo Criar-->
+        <form asp-action="Criar">
+            <!--Grupo do formulario referente ao rotulo e campo de entrada
+            de texto da propriedade Nome-->
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+            </div>
+            <!--Grupo do formulario referente ao rotulo e campo de entrada
+            de texto da propriedade telefone-->
+            <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" class="form-control" />
+            </div>
+            <!--Grupo do formulario referente ao rotulo a CHECKBOX da
+            propriedade Ativo-->
+            <div class="form-group">
+                <label asp-for="Ativo" class="control-label"></label>
+                <input type="checkbox" asp-for="Ativo" class="form-check-input" />
+            </div>
+            <br />
+            <!--Grupo do formulario referente botão de submit que irá enviar
+            os dados do formulario para o metodo setado na asp-action localizada
+            na abertura da tag form-->
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<hr/>
+<div>
+    <!--Chama o metodo Index que irá chamar a View Index-->
+    <a asp-action="Index">Voltar</a>
+</div>
